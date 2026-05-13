@@ -6,7 +6,7 @@ from datetime import datetime
 # Configurações
 MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
-MQTT_TOPIC = "seu/topico/aqui"  # Altere para o tópico desejado
+MQTT_TOPIC = "esp32/rain_sensor"  # Altere para o tópico desejado
 DB_FILE = "dados_mqtt.db"
 
 # Cria o banco e tabela se não existir
